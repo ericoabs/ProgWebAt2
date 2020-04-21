@@ -1,9 +1,9 @@
 
-var produtos = document.querySelectorAll(".produto");
+var produtos = document.querySelectorAll(".deletar");
 
 var tabela = document.querySelector("#tabela-produtos");
 
-tabela.addEventListener("dblclick", function(event) {
+tabela.addEventListener("click", function(event) {
     event.target.parentNode.classList.add("fadeOut");
 
     setTimeout(function() {
