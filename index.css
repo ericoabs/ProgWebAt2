@@ -223,8 +223,12 @@ tr button {
 	margin: 0;
 	width: fit-content;
 	margin: 5px;
+	font-weight: bold;
 }
 .fadeOut {
 	opacity: 0;
 	transition: 0.5s;
+}
+label {
+	font-weight: bold;
 }
